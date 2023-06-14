@@ -1,0 +1,161 @@
+/* Estilos generales */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    /*background: linear-gradient(to right, #00b4db, #0083b0);*/
+    background-color: #bd0b5a;
+    background-image: linear-gradient(43deg, #bd0b5a 0%, #a10343 30%, #000000 66%, #0093e9 100%);
+    color: #fff;
+  }
+  
+  /* Estilos del header */
+  header {
+    /*background-color: #bd0b5a;
+    background-image: linear-gradient(43deg, #bd0b5a 0%, #a10343 30%, #000000 66%, #0093e9 100%);*/
+    padding: 20px;
+    display: flex;
+    float: right;
+    justify-content: space-between !important; /* To align the navigation links to the right */
+    margin-top: 30px; /* MArgen desde el techo hacia abajo de la navbar*/
+    margin-right: 5%; /* Margen desde la pared derecha de los items de la navbar */
+    }
+  
+  header nav {
+    display: flex;
+  }
+  
+  header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 30px; /* Separacion entre items*/
+    font-weight: 600; /* Similar to the font weight of Vercel's navigation links */
+    letter-spacing: 2pt; /* para separar entre letras */
+    /*word-spacing: 9pt;   /* separacion entre palabras */
+    /*line-height: 16pt;   /* separacion entre lineas */ 
+    /* text-indent: 28pt;   /* para sangrias */
+  }
+  
+  /* Estilos de la sección Home */
+  #home {
+    /*background-image: linear-gradient(to right, #f78ca0, #f9748f, #fd868c, #fe9a8b); /* Similar to the gradient background color of Vercel's hero section */
+    /*background-color: #a30031;
+    background-image: linear-gradient(102deg, #a30031 0%, #a90649 30%, #060400 66%, #0093e9 100%);*/
+    text-align: center;
+    padding: 150px;
+    /*margin-top: 60px; /* Bajar un poco mas las letras del h1 */
+  }
+  
+  #home h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: 700; /* Similar to the font weight of Vercel's hero section title */
+  }
+  
+  #home h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  #home p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+  
+  /* Estilos de las otras secciones */
+  section {
+    padding: 150px;
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos del boton CTA */
+  .cta-button {
+    background-color: #0a0805;
+    background-image: linear-gradient(45deg, #0a0805 0%, #a801b1 50%, #e91565 100%);
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    border-color: #f3f3f3;
+    font-weight: 600;
+    margin-top: 20px;
+    display: inline-block;
+  }
+  
+  /* Estilos de la sección Contact */
+  #contact {
+    /*background-color: #ff0052;
+    background-image: linear-gradient(225deg, #ff0052 0%, #412458 50%, #2B86C5 100%);*/
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+    }
+    
+    #contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    }
+    
+    #contact form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+    }
+    
+    #contact form label {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: left;
+    }
+    
+    #contact form input[type="text"], #contact form input[type="email"], #contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    }
+    
+    #contact form input[type="submit"] {
+    /*background-color: #0a0805;
+    background-image: linear-gradient(45deg, #0a0805 0%, #a801b1 50%, #e91565 100%);*/
+    background-color: #0a0805;
+    background-image: linear-gradient(45deg, #0a0805 0%, #a801b1 50%, #e91565 100%);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    border-color: #f3f3f3;
+    font-weight: 600;
+    margin-top: 20px;
+    display: inline-block;
+    }
+    
+    #contact form input[type="submit"]:hover {
+    background-color: #fff;
+    color: #f5f5f7;
+    }
+    
+    /* Estilos del footer */
+    footer {
+    text-align: center;
+    background-color: #1d1f20;
+    color: #fff;
+    padding: 20px;
+    }
+    
+    /* Media Queries */
+    @media (max-width: 600px) {
+    header nav {
+    text-align: center;
+    }
+    }
